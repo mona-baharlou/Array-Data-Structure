@@ -149,27 +149,27 @@ An array is a data structure that stores a fixed-size sequence of elements of th
 
 4. Explain the process of accessing elements in an array.
 
-Elements in an array can be accessed using their index, which represents their position in the array. The index starts from 0 for the first element and goes up to the size of the array minus one for the last element. To access an element, simply specify the array name followed by the index in square brackets.
+  Elements in an array can be accessed using their index, which represents their position in the array. The index starts from 0 for the first element and goes up to the size of the array minus one for the last element. To access an element, simply specify the array name followed by the index in square brackets.
 
 Example: int[] numbers = {1, 2, 3, 4};
-To access the second element (2): int secondElement = numbers[1];
+ To access the second element (2): int secondElement = numbers[1];
 
 5. How do you insert an element into an array?
 
-To insert an element into an array, you need to shift the existing elements to make space for the new element. Here are the steps:
+ To insert an element into an array, you need to shift the existing elements to make space for the new element. Here are the steps:
 
 - Determine the position at which you want to insert the element.
 - Shift all elements to the right from that position.
 - Assign the new element to the desired position.
 
 Example: int[] numbers = {1, 2, 4, 5};
-To insert 3 at index 2: 
+ To insert 3 at index 2: 
 - Shift 4 and 5 to the right: {1, 2, 4, 5} becomes {1, 2, _, 4, 5}
 - Assign 3 to index 2: {1, 2, 3, 4, 5}
 
 6. How do you delete an element from an array?
 
-To delete an element from an array, you need to shift the remaining elements to fill the gap left by the deleted element. Here are the steps:
+ To delete an element from an array, you need to shift the remaining elements to fill the gap left by the deleted element. Here are the steps:
 
 - Determine the position of the element you want to delete.
 - Shift all elements to the left from that position.
