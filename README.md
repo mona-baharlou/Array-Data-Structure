@@ -16,15 +16,22 @@ An array is **a linear data structure** in which **elements of similar data type
        Arrays offer efficient access to elements based on their index position, making them suitable for scenarios where frequent element retrieval is required.
 
 ## Advantages of using arrays:
-1. Random access: Elements in an array can be accessed directly using their index, allowing efficient retrieval.
-2. Memory efficiency: Arrays use contiguous memory locations, resulting in efficient memory utilization.
-3. Simple and straightforward: Arrays have a simple and intuitive structure, making them easy to understand and implement.
-4. Easy to manipulate: Arrays support several operations like insertion, deletion, and updating elements in constant time.
+### 1. Random access:
+       Elements in an array can be accessed directly using their index, allowing efficient retrieval.
+### 2. Memory efficiency: 
+       Arrays use contiguous memory locations, resulting in efficient memory utilization.
+### 3. Simple and straightforward: 
+       Arrays have a simple and intuitive structure, making them easy to understand and implement.
+### 4. Easy to manipulate: 
+       Arrays support several operations like insertion, deletion, and updating elements in constant time.
 
 ## Limitations of arrays:
-1. Fixed size: The size of an array is determined at the time of declaration and cannot be dynamically altered, leading to wasted memory if the size is not utilized efficiently.
-2. No dynamic resizing: Arrays do not automatically resize themselves when elements are added or removed, requiring manual handling of memory reallocation.
-3. Inefficient insertion and deletion: Inserting or deleting elements from an array can be time-consuming as it requires shifting elements up or down, potentially causing performance issues for large arrays.
+### 1. Fixed size: 
+       The size of an array is determined at the time of declaration and cannot be dynamically altered, leading to wasted memory if the size is not utilized efficiently.
+### 2. No dynamic resizing: 
+       Arrays do not automatically resize themselves when elements are added or removed, requiring manual handling of memory reallocation.
+### 3. Inefficient insertion and deletion: 
+       Inserting or deleting elements from an array can be time-consuming as it requires shifting elements up or down, potentially causing performance issues for large arrays.
 
 Overall, the array data structure provides a efficient and organized way to store and access elements, making it a foundational data structure in computer programming.
 
